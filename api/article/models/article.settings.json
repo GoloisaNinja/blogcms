@@ -35,9 +35,13 @@
       "pluginOptions": {}
     },
     "author": {
+      "via": "articles",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "articles"
+      "model": "user"
+    },
+    "readTime": {
+      "type": "string",
+      "required": false
     }
   }
 }
