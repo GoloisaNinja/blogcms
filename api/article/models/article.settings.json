@@ -42,6 +42,9 @@
     "readTime": {
       "type": "string",
       "required": false
+    },
+    "preview": {
+      "type": "text"
     }
   }
 }
