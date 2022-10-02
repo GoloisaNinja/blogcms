@@ -1,3 +1,4 @@
+const PORT = process.env.PORT;
 module.exports = ({ env }) => ({
   host: env("HOST", `0.0.0.0:${PORT}`),
   port: env.int("PORT", 1337),
