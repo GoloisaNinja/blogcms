@@ -45,6 +45,12 @@
     },
     "preview": {
       "type": "text"
+    },
+    "hasGallery": {
+      "type": "boolean"
+    },
+    "galleryURLS": {
+      "type": "string"
     }
   }
 }
