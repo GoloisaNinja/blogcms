@@ -51,6 +51,9 @@
     },
     "galleryURLS": {
       "type": "text"
+    },
+    "badges": {
+      "collection": "badges"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "badges",
+  "info": {
+    "name": "Badges",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
